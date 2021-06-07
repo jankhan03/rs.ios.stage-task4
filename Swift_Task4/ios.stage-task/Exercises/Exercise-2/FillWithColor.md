@@ -14,6 +14,10 @@ Return the modified image after performing the color fill.
 
 **Input: image = [[1, 1, 1], [1, 1, 0], [1, 0, 1]], row = 1, column = 1, newColor = 2**
 
+1 1 1       2 2 2
+1 1 0  -> 2 2 0
+1 0 1       2 0 1
+
 **Output: [[2, 2, 2], [2, 2, 0], [2, 0, 1]]**
 
 **Explanation:** From the center of the image with position (row, column) = (1, 1) (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color.
